@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "quick-links-tracker",
+    "libraryId": "764c3c95-9397-4d73-a4b5-8d215ca2d0cf",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "quick-links-tracker",
+    "solutionShortDescription": "quick-links-tracker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

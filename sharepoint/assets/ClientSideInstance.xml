@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="QuickLinksTracker"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="f2adb158-2845-4c5b-b16d-491fce8431c9"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

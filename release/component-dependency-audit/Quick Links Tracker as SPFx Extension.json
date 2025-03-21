@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "quick-links-tracker-application-customizer": {
+      "dependencies": [],
+      "asyncChunks": {}
+    }
+  }
+}
