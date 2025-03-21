@@ -2,7 +2,10 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Once the app is deployed, it will log every quicklink user click activity to SP list.
+
+![image](https://github.com/user-attachments/assets/638e5cb1-fec6-4b81-b51a-7e8f3b5f7212)
+
 
 [picture of the solution in action, if possible]
 
