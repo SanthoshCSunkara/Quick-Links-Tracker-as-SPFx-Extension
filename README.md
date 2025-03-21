@@ -3,6 +3,25 @@
 ## Summary
 
 Once the app is deployed, it will log every quicklink user click activity to SP list.
+🔁 Project Summary: Quick Links Tracker (SPFx Extension)
+✅ What We Built:
+An SPFx Application Customizer (extension) to log Quick Links clicks on SharePoint Online pages.
+✅ What It Logs:
+Title of the clicked link (captured from Quick Links).
+Link URL (actual destination URL).
+ClickedTime (ISO timestamp).
+User (current user's display name or email).
+✅ How It Works:
+Listens for clicks on elements with data-automation-id="quick-links-item-title" (used by default Quick Links).
+Traverses to the parent <a> element to fetch the actual link URL.
+Logs all details to a custom SharePoint list: ClickAnalytics.
+✅ Optimized for:
+Performance (minimal event listener, async logging).
+Production readiness (error handling, non-blocking, efficient).
+Site-wide flexibility (works across all pages with Quick Links).
+📂 Key Files:
+QuickLinksTrackerApplicationCustomizer.ts
+Connected to ClickAnalytics list with fields: Title, LinkUrl, ClickedTime, User
 
 ![image](https://github.com/user-attachments/assets/638e5cb1-fec6-4b81-b51a-7e8f3b5f7212)
 
